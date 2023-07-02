@@ -17,6 +17,7 @@ public class MergeSortedArray {
 		
 		merge1(nums1,3,nums2,3);
 		
+		
 //		merge(nums1,3,nums2,3);
 //		int[] newarr=removezero(nums1);
 //		merge(newarr, 3, nums2, 3);
