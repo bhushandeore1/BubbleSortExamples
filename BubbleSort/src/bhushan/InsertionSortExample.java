@@ -12,20 +12,18 @@ public class InsertionSortExample {
 
 	}
 
-	private static void insertionSort(int[] num) {
-		for (int i = 0; i < num.length-1; i++) {
-			for (int j = i+1; j >0; j--) {
+	public static void insertionSort(int[] num) {
+		for(int i=0;i<num.length-1;i++) {
+			for (int j = i+1; j>0; j--) {
 				if(num[j-1]>num[j]) {
-					int tem=num[j];
+					int temp=num[j];
 					num[j]=num[j-1];
-					num[j-1]=tem;
-				}
-				else {
-					break;
+					num[j-1]=temp;
 				}
 			}
 		}
-		
 	}
+		
+	
 
 }

@@ -12,7 +12,7 @@ public class SelectionSortExample {
 
 	}
 	
-	private static void SelectionSort(int[] num) {
+	public static void SelectionSort(int[] num) {
 		for (int i = 0; i < num.length; i++) {
 			int last=num.length-i-1;
 			int maxnum=getMaxElement(num,0,last);
