@@ -1,6 +1,6 @@
 package bhushan;
 
-import java.util.Arrays;
+import java.util.*;
 
 //Practice example for the cyclic sort
 
@@ -8,8 +8,10 @@ import java.util.Arrays;
 public class CyclicSortExample {
 
 	public static void main(String[] args) {
-		int [] num= {5,3,1,2,4};
-		cyclicSort(num);
+		int [] num= {5,4,3,2,1};
+//		cyclicSort(num);
+//		num.equals(num);
+		Arrays.sort(num); 
 		System.out.println(Arrays.toString(num));
 	}
 	
